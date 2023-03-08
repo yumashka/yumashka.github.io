@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Font size experiment</title>
+    <style>
+        body {
+            /* 1em = 100% of the browser's base font size, so in most cases this will render as 16 pixels */
+            font-size: 1rem;
+        }
+        h1 {
+            /* twice the size of the body, thus 32 pixels */
+            font-size: 2rem;
+        }
+        span.subheading {
+            /* half the size of the h1, thus 16 pixels to come back to the original size */
+            font-size: 1rem;
+        }
+
+        div.container {
+            max-width: 50rem;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        This is our main heading
+        <span class="subheading">This is our subheading</span>
+      </h1>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla arcu nisl, ullamcorper ac imperdiet eu, pulvinar quis lectus. Mauris at ligula tincidunt, tristique lorem at, congue quam. Suspendisse mattis vel lacus ac sollicitudin. Etiam sodales dui vel ligula egestas volutpat. Cras eleifend elementum commodo. Nam at mi odio. Duis feugiat vitae nisl vel vulputate. In pharetra quam eget erat tincidunt, non aliquam ligula pulvinar. Cras a urna nunc. Suspendisse egestas tincidunt ligula, eu imperdiet felis vulputate in. Ut suscipit tempus porttitor. Aenean magna nibh, auctor eget ante vitae, ultrices semper metus. Maecenas semper, ex sed ultrices efficitur, sapien orci tempor quam, id finibus nisi massa at nisl. Etiam sem nisi, pellentesque sit amet tortor id, ultricies rhoncus mi. 
+      </p>
+    </div>
+  </body>
+</html>
